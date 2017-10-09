@@ -50,7 +50,10 @@ namespace CSharpTest
 
         public void OverflowTest()
         {
+            // 2147483647
             int m = int.MaxValue;
+            int n = int.MinValue;
+
             int a = 2147483647;
             // -2147483648
             int b = a + 1;
