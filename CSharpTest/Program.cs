@@ -10,10 +10,16 @@ namespace CSharpTest
     {
         static void Main(string[] args)
         {
-            TypeConvert convert = new TypeConvert();
-            //convert.TypeConvertTest();
-            convert.OverflowTest();
-            //convert.BoxAndUnBox();
+            //TypeConvert typeTest = new TypeConvert();
+            //typeTest.TypeConvertTest();
+            //typeTest.OverflowTest();
+            //typeTest.BoxAndUnBox();
+
+            //MyClassChildTest classTest = new MyClassChildTest();
+            //classTest.TestOutput();
+
+            StringTest strTest = new StringTest();
+            strTest.StringMemoryResident();
 
             Console.ReadLine();
         }
