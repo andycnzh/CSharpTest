@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractClassTest.cs" />
     <Compile Include="DelegateTest.cs" />
     <Compile Include="MyClassTest.cs" />
     <Compile Include="Program.cs" />
