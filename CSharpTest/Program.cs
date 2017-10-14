@@ -26,9 +26,12 @@ namespace CSharpTest
             //delegateTest.TestInvoke();
             //delegateTest.TestDelegate();
 
-            SMS sms = new SMS();
-            SMSClient smsClient = new SMSClient(sms);
-            sms.SendSMS("13111112222", "Test Message");
+            //SMS sms = new SMS();
+            //SMSClient smsClient = new SMSClient(sms);
+            //sms.SendSMS("13111112222", "Test Message");
+
+            ExceptionTest exceptionTest = new ExceptionTest();
+            exceptionTest.Method0();
 
             Console.ReadLine();
         }

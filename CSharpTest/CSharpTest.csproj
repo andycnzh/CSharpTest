@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="AbstractClassTest.cs" />
     <Compile Include="DelegateTest.cs" />
+    <Compile Include="ExceptionTest.cs" />
     <Compile Include="MyClassTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
