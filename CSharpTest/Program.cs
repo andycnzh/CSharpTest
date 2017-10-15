@@ -30,8 +30,14 @@ namespace CSharpTest
             //SMSClient smsClient = new SMSClient(sms);
             //sms.SendSMS("13111112222", "Test Message");
 
-            ExceptionTest exceptionTest = new ExceptionTest();
-            exceptionTest.Method0();
+            //ExceptionTest exceptionTest = new ExceptionTest();
+            //exceptionTest.Method0();
+
+            //FinalizeTest finalizeTest = new FinalizeTest();
+            //finalizeTest.DoWork();
+
+            TestCar testCar = new TestCar();
+            testCar.Test("MyAssemblyB.AudiCar");
 
             Console.ReadLine();
         }
