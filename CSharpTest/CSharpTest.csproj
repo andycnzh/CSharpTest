@@ -46,6 +46,7 @@
     <Compile Include="DelegateTest.cs" />
     <Compile Include="ExceptionTest.cs" />
     <Compile Include="FinalizeTest.cs" />
+    <Compile Include="LockTest.cs" />
     <Compile Include="MyClassTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

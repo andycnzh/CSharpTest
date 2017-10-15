@@ -36,8 +36,11 @@ namespace CSharpTest
             //FinalizeTest finalizeTest = new FinalizeTest();
             //finalizeTest.DoWork();
 
-            TestCar testCar = new TestCar();
-            testCar.Test("MyAssemblyB.AudiCar");
+            //TestCar testCar = new TestCar();
+            //testCar.Test("MyAssemblyB.AudiCar");
+
+            LockTest lockTest = new LockTest();
+            lockTest.RunTest();
 
             Console.ReadLine();
         }
